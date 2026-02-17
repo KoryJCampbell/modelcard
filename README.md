@@ -1,4 +1,4 @@
-# @legacybridge/modelcard
+# @koryjcampbell/modelcard
 
 NIST AI RMF Model Card Generator CLI — Generate compliant AI system documentation for federal agencies.
 
@@ -19,22 +19,22 @@ Federal agencies are required by **OMB M-24-10** to document all AI systems with
 
 ```bash
 # Initialize a starter template
-npx @legacybridge/modelcard init
+npx @koryjcampbell/modelcard init
 
 # Generate via interactive prompts
-npx @legacybridge/modelcard generate
+npx @koryjcampbell/modelcard generate
 
 # Validate and check NIST coverage
-npx @legacybridge/modelcard validate
+npx @koryjcampbell/modelcard validate
 ```
 
 ## Installation
 
 ```bash
-npm install -g @legacybridge/modelcard
+npm install -g @koryjcampbell/modelcard
 
 # Or use without installing
-npx @legacybridge/modelcard
+npx @koryjcampbell/modelcard
 ```
 
 For AI-assist mode, install the optional peer dependency:
@@ -139,7 +139,7 @@ The `modelcard.yaml` schema covers ~100 fields across 5 top-level sections:
 The full Zod schema is exported as a TypeScript type for programmatic use:
 
 ```typescript
-import { ModelCardSchema, type ModelCard } from '@legacybridge/modelcard';
+import { ModelCardSchema, type ModelCard } from '@koryjcampbell/modelcard';
 ```
 
 ## Development

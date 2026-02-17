@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { Command } from 'commander';
 import { getVersion } from './utils/version.js';
 import { initCommand } from './commands/init.js';

@@ -1,10 +1,10 @@
 {
-  "name": "@legacybridge/modelcard",
-  "version": "0.1.0",
+  "name": "@koryjcampbell/modelcard",
+  "version": "0.1.1",
   "description": "NIST AI RMF Model Card Generator CLI for federal AI system documentation",
   "type": "module",
   "bin": {
-    "modelcard": "./dist/cli.js"
+    "modelcard": "dist/cli.js"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
